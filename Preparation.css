@@ -33,3 +33,13 @@ header a.active {
   background-color: #e6a25a;
   color: rgb(230, 135, 59);
 }
+/* Footer */
+.footer {
+  position: fixed;
+  width: 100%;
+  background-color: #bb8348;
+  color: #572929;
+  text-align: center;
+  margin-top: 45em;
+  padding: 0em;
+}
