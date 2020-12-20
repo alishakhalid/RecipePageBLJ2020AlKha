@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
 }
+/* navbar */
 .navbar-dark {
   background-color: #bb8348;
 }
@@ -12,6 +13,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
 header img {
   height: 45px;
 }
@@ -31,4 +33,38 @@ header a:hover {
 header a.active {
   background-color: #e6a25a;
   color: rgb(230, 135, 59);
+}
+
+.container-fluid {
+  margin-top: 50px;
+}
+div > img {
+  width: 100%;
+  margin: 25px;
+}
+
+.text {
+  text-align: center;
+  background-color: #3e8b68;
+  color: #ffffff;
+  font-size: 17.3px;
+  margin: 25px;
+  margin-top: 100px;
+}
+
+@media (min-width: 1815px) {
+  .text {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+  }
+}
+.footer {
+  position: fixed;
+  width: 100%;
+  background-color: #bb8348;
+  color: #ffffff;
+  text-align: center;
 }
