@@ -35,7 +35,7 @@ header a.active {
   background-color: #e6a25a;
   color: rgb(230, 135, 59);
 }
-
+/* Karussel */
 .container-fluid {
   margin-top: 50px;
 }
@@ -43,7 +43,7 @@ div > img {
   width: 100%;
   margin: 25px;
 }
-
+/* Rezept */
 .text {
   text-align: center;
   background-color: #3e8b68;
@@ -62,10 +62,24 @@ div > img {
     left: 0px;
   }
 }
+/* slang */
+.mv {
+  text-align: center;
+  background-image: url("RecipePageBLJ2020AlKha/border.jpg");
+  color: #000000;
+  font-size: 20px;
+  margin: 25px;
+  margin-top: 100px;
+  font-family: "Dancing Script", cursive;
+}
+/* Footer */
 .footer {
   position: fixed;
   width: 100%;
   background-color: #bb8348;
   color: #572929;
   text-align: center;
+  margin: 25px;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
