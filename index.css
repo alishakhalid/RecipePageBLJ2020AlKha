@@ -50,8 +50,8 @@ h2 {
   color: #ffffff;
   font-size: 18px;
   font-family: "Lobster", cursive;
-  margin: 25px;
-  margin-top: 50px;
+  margin: 20px;
+  margin-top: 20px;
 }
 
 /* slang */
@@ -73,7 +73,7 @@ label {
   position: absolute;
   width: 45px;
   height: 22px;
-  right: 20px;
+  right: 140px;
   top: 20px;
   border: 2px solid;
   border-radius: 20px;
