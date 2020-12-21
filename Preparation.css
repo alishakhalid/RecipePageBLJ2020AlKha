@@ -43,3 +43,37 @@ header a.active {
   margin-top: 45em;
   padding: 0em;
 }
+
+.col-lg-4 {
+  display: inline-block;
+}
+.row > div {
+  margin-bottom: 30px;
+}
+.image > p {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: #ffffff;
+  font-size: 1.2;
+  text-align: justify;
+  background: #7a595999;
+  padding: 5px;
+}
+.image {
+  position: relative;
+  transition: 0.5s;
+  overflow: hidden;
+  box-shadow: #00008b 0 0 15px 0px;
+}
+
+.image:hover {
+  font-size: 1.3em;
+  border-radius: 20px;
+}
+
+.image > img {
+  padding: 0;
+  width: 100%;
+  transition: 0.5s;
+}
