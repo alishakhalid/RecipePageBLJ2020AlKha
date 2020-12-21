@@ -60,14 +60,19 @@ h2 {
   }
 }
 /* slang */
-.mv {
+.text1 {
   text-align: center;
-  height: 70;
   color: #ffffff;
   font-size: 40px;
   margin-top: 70px;
   margin-left: 0%;
   font-family: "Dancing Script", cursive;
+  position: absolute;
+  top: 15%;
+  z-index: 20;
+  height: fit-content;
+  left: 50%;
+  transform: translateX(-50%);
 }
 /* Footer */
 .footer {
