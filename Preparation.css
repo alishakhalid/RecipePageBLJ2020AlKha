@@ -43,7 +43,7 @@ header a.active {
   margin-top: 45em;
   padding: 0em;
 }
-
+/* Schritte erklärt */
 .col-lg-4 {
   display: inline-block;
 }
@@ -64,7 +64,7 @@ header a.active {
   position: relative;
   transition: 0.5s;
   overflow: hidden;
-  box-shadow: #00008b 0 0 15px 0px;
+  box-shadow: #008b3a 0 0 15px 0px;
 }
 
 .image:hover {
@@ -75,5 +75,16 @@ header a.active {
 .image > img {
   padding: 0;
   width: 100%;
+  transition: 0.5s;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+section {
+  width: 80%;
+  margin: 100px auto;
   transition: 0.5s;
 }

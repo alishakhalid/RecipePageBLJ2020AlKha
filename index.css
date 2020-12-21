@@ -35,30 +35,28 @@ header a.active {
   width: 600px;
 }
 div > img {
-  width: 100%;
-  margin: 25px;
+  width: 90%;
+  margin: 30px;
+  margin-right: 30px;
 }
 /* Rezept */
+.mv {
+  margin-left: 20px;
+  margin-right: 0px;
+}
 h2 {
-  font-family: "Lobster", cursive;
+  font-family: "Bungee Outline", cursive;
 }
 .text {
   text-align: center;
   background-color: #3e8b68;
   color: #ffffff;
-  font-size: 17.3px;
+  font-size: 18px;
+  font-family: "Lobster", cursive;
   margin: 25px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
-@media only screen and (max-width: 500px) {
-  /* For mobile phones: */
-  .text,
-  .container-fluid,
-  .mv {
-    width: 100%;
-  }
-}
 /* slang */
 .text1 {
   text-align: center;
@@ -68,7 +66,7 @@ h2 {
   margin-left: 0%;
   font-family: "Dancing Script", cursive;
   position: absolute;
-  top: 15%;
+  top: 10%;
   z-index: 20;
   height: fit-content;
   left: 50%;
