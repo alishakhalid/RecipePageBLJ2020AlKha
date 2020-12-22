@@ -34,6 +34,9 @@ header a.active {
     font-family: "Dancing Script", cursive;
     font-size: 25px;
 }
+p {
+    color: #ffffff;
+}
 /* Footer */
 
 .footer2 {
