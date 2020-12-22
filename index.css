@@ -105,8 +105,9 @@ body.night {
 /* Footer */
 .footer {
   background-color: #c42727;
-  color: #ffffff;
-  text-align: center;
+  color: #23720fc5;
+  text-align: right;
+  margin-top: 1em;
 }
 
 .footer2 {
