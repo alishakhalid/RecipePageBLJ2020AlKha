@@ -54,15 +54,11 @@ header a.active {
 .row > div {
   margin-bottom: 30px;
 }
-.image > p {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  color: #ffffff;
-  font-size: 1.2;
-  text-align: justify;
-  background: #7a595999;
-  padding: 5px;
+.text > p {
+  color: #000000;
+}
+hr {
+    background-color: rgba(96, 216, 116, 0.774);
 }
 .image {
   position: relative;

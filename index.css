@@ -103,6 +103,11 @@ body.night {
   color: #ffffff;
 }
 /* Footer */
+.footer {
+  background-color: #c42727;
+  color: #ffffff;
+  text-align: center;
+}
 
 .footer2 {
   color: #000000;
