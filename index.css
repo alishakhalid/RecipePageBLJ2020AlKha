@@ -48,9 +48,10 @@ div > img {
 }
 h2 {
   font-family: "Bungee Outline", cursive;
+  text-align: center;
 }
 .text {
-  text-align: center;
+  /* text-align: center; */
   background-color: #3e8b68;
   color: #ffffff;
   font-size: 24px;
@@ -58,6 +59,8 @@ h2 {
   margin: 0px;
   margin-top: 100px;
   height: 650px;
+  width: 550px;
+  text-align: center;
 }
 
 /* Kind of a title */
