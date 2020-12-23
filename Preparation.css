@@ -39,16 +39,17 @@ p {
     color: #ffffff;
 }
 /* Footer */
-
-/* .footer2 {
-  color: #000000;
-  text-align: center;
-  background-color: #c58036;
-  height: 35px;
-  margin-bottom: 0em;
+footer {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  color: #ffffff;
+  height: 85px;
   position: sticky;
-  opacity: 0.7;
-} */
+}
 #page-container {
   position: relative;
   min-height: 0vh;
@@ -87,6 +88,8 @@ hr {
   transition: 0.5s;
   overflow: hidden;
   box-shadow: #008b3a 0 0 15px 0px;
+  height: 50;
+  width: 80;
 }
 
 .image:hover {
