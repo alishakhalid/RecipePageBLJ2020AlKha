@@ -1,0 +1,44 @@
+Farbkonzept:
+------------
+Body:
+background-color:	#aa1e1b
+
+Navbar & Footer:
+background-color:	#bb8348
+footer > p:	#000000
+Header a:hover	#2a550e
+
+Footer2:
+background-color:	#c58036
+
+Download-Button:
+background-color:	#9ae79d	
+
+Rezept-Box
+background-color:	#3e8b68
+color: 		#ffffff
+
+Text (Titel):
+color:		#ffffff
+
+Preparation Step Erklärung:
+p:		#ffffff
+
+Font:
+------		
+h2 (Rezept Titel): 			
+font-family: 		"Bungee Outline", cursive;
+
+
+Text (Zutaten):
+font-family:		"Lobster", cursive;
+font-size:			24px
+
+Text1 (Titel (A balanced...)):
+font-family:		"Dancing Script", cursive;
+font-size:			40px
+
+Cookie(Titel(A Cookie a day..)):
+font-family:		 "Dancing Script", cursive;
+
+https://paletton.com/
