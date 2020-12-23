@@ -258,4 +258,9 @@ body.night {
     min-height: 0vh;
   }
 }
-@media (min-width: );
+@media (max-width: 1024px) {
+  .text1 {
+    font-size: 23px;
+    margin-top: 20px;
+  }
+}
