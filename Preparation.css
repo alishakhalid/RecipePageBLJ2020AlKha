@@ -20,7 +20,7 @@ header {
 }
 
 header a:hover {
-  background-color: rgb(42, 85, 14);
+  background-color: #2a550e;
   color: black;
 }
 
@@ -149,6 +149,14 @@ section {
 .text {
     color: #ffffff;
 }
+
+@media (max-width:840px){
+    .cookie{
+        font-size: 16px;
+         margin-left: 10%;
+    }
+}
+
 @media only screen and (min-width:1200px) {
 .col-lg-1 {
 width: 10%;
@@ -214,35 +222,6 @@ width: 90%;
 width: 100%;
 }
 
-/* Dark Mode */
-label {
-  position: absolute;
-  width: 45px;
-  height: 22px;
-  right: 140px;
-  top: 20px;
-  border: 2px solid;
-  border-radius: 20px;
-}
-label:before {
-  position: absolute;
-  content: "";
-  width: 20px;
-  height: 20px;
-  left: 1px;
-  top: 1px;
-  border-radius: 50%;
-  cursor: pointer;
-  background: rgb(0, 0, 0);
-  transition: 0.4s;
-}
-label.active::before {
-  left: 24px;
-  background: #ffffff;
-}
-body.night {
-  background: #000000;
-  color: #ffffff;
-}
+
 
 
