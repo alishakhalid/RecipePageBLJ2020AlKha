@@ -173,6 +173,12 @@ body.night {
   height: 2.5rem;
   opacity: 0.7;
 }
+.footer2 a{
+    color: #000000;
+}
+.footer2 a:hover{
+    color: #ccccfc;
+}
 
 @media only screen and (min-width:1200px) {
 .col-lg-1 {
